@@ -1,0 +1,178 @@
+
+
+/* ========  MENU  ======== */
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+li{
+    border: 3px solid rgba(0, 0, 0, 0.829);
+    border-radius: 5px;
+    box-shadow: 2px 2px #1c1c1c55;
+    margin-right: 10px;
+    
+}
+a {
+    text-decoration: none;
+}
+.header {
+    background: #b5efeaa7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid black;
+    
+}
+.nome-logo{
+    font-size:40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(35, 34, 35);
+    text-shadow: 5px 5px 5px #6c6b6b82;
+    padding: 15px;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    margin-right: 50px;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+    background: rgba(30, 105, 149, 0.853);
+    color: aliceblue;
+}
+
+
+/* ========  CONTAINER GERAL E HOME-PAGE  ======== */
+
+
+.container{
+    height: 1700px;
+    background-image:url(img/background-4.jpg);
+    background-repeat:repeat;
+    background-size: 140%;
+    zoom: 68%;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: auto;
+    padding-left: 20%;
+    font-size: 100px;
+}
+.imagem-sobre{
+    display: flex;
+    
+}
+.sobre{
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 1569px;
+    padding: 35px;
+    margin-left: 50px;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:39px;
+    color: rgb(255, 255, 255);
+    background: rgba(5, 19, 146, 0.256);
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px 10px #14141571;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.816);
+    
+}
+.titulo-sobre{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+/* =================== CONTATO ================ */
+
+
+.container-contato{
+    background: url(img/background-4.jpg);
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    zoom: 98%;
+    width: auto;
+}
+
+.config-imgs-contato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.config-imgs-contato img{
+    display: flex;
+    margin-top: -36px;
+    width: 500px;
+    height: 720px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px 10px #14141590;
+    
+}
+.contato-chapa{
+    width: 700px;
+    height: 620px;
+    font-size: 17px;
+    text-align: justify;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    background: rgba(5, 19, 146, 0.256);
+    box-shadow: 10px 10px 10px 10px #14141590;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.476);
+    line-height: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.contato-chapa h1{
+    text-align: center;
+    font-size: 30px;
+}
+.contato-chapa h2{
+    font-size: 20px;
+    text-align: center;
+}
+.contato-chapa p{
+    text-align:start;
+    font-size: 16px;
+}
+.contato-chapa a{
+    text-decoration: underline;
+    color: rgb(211, 250, 237);
+}
+/* ================= RODAPÉ ====================== */
+
+.footer-config{
+    background: rgb(177, 225, 215);
+    height: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    border-top: 2px groove black; 
+}
+
+.footer-config li{
+    border:0px;
+    border-radius: none;
+    box-shadow: none;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-left: 40px;
+}
